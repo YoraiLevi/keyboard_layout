@@ -13,7 +13,8 @@ export const ShortcutInput: React.FC<ShortcutInputProps> = ({ value, onChange })
     'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
     '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
     'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F8', 'F9', 'F10', 'F11', 'F12',
-    'Tab', 'Enter', 'Space', 'Delete', 'Escape'
+    'Tab', 'Enter', 'Space', 'Delete', 'Escape', 'Backspace', '-', '=', '[', ']', '\\', ';', "'", ',', '.', '/','`',
+    'Home', 'End', 'PageUp', 'PageDown', 'Insert', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight','Pause','PrintScreen','AudioVolumeMute','AudioVolumeDown','AudioVolumeUp'
   ];
 
   useEffect(() => {
