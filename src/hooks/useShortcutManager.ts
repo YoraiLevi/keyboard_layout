@@ -35,6 +35,7 @@ export function useShortcutManager(
   initialApps: Application[],
   selectedAppId: string | null
 ): ShortcutManager {
+ console.log(selectedAppId)
   const [apps, setApps] = useState<Application[]>(initialApps);
   const [editingState, setEditingState] = useState<EditingState | null>(null);
 

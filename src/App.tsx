@@ -4,7 +4,7 @@ import { ISO105Layout } from './components/Keyboard/keyboardLayouts';
 import { ApplicationSelector } from './components/ApplicationSelector/ApplicationSelector';
 import { ShortcutList } from './components/ShortcutList/ShortcutList';
 import { KeyboardListener } from './components/Keyboard/KeyboardListener';
-import { Application, ShortcutMapping } from './types/Application';
+import { Application } from './types/Application';
 import { Shortcut } from './types/Keyboard';
 import { shortcutToString } from './types/Keyboard';
 import { findShortcutsForKey } from './utils/shortcutUtils';

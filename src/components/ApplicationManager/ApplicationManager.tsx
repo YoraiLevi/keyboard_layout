@@ -4,7 +4,7 @@ import { XMarkIcon, PlusIcon } from '@heroicons/react/24/outline';
 
 interface ApplicationManagerProps {
   apps: Application[];
-  onAddApp: (app: Pick<Application, 'name'>) => void;
+  onAddApp: (app: Pick<Application, 'name' | 'processName'>) => void;
   onDeleteApp: (appId: string) => void;
 }
 
